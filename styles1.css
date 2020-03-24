@@ -6,7 +6,7 @@ body{
 .navbar{
     margin-top: 0px;
     margin: -10px;
-    background-color:#eb3be2;
+    background-color:#D3BC72;
     height: 70px;
     box-shadow: bisque;
 }
@@ -44,7 +44,7 @@ body{
     margin-left: 20px;
     margin-top: 2px;
     margin-bottom: 20px;
-    background-color:#eb3be2;
+    background-color:#D3BC72;
     color: white;
     border-radius: 10px;
     cursor: pointer;
@@ -64,7 +64,7 @@ h2{
 }
 
 h1{
-    color:#cf44c8;
+    color:#D3BC72;
     right: 264px;
     margin-top: -80px;
     margin-left: 670px;

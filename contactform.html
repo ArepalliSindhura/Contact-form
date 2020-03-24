@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<title>Contact form</title>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
+<nav class="navbar" style="background-color:mediumorchid; height: 70px;">
+    <!--<img src="bakery1.jpg" style="height: 80px; width: 80px; flex: auto; flex-direction: column; position: relative;" alt="logo">
+    -->
+        <h1 style="color: white; border-color: lightcoral; position: relative; font-size: 50px;">Bakery</h1>
+</nav>
+<!--<h1 style=" color: darkmagenta; text-align: center; background-color: gainsboro">Sindhura's Online Bakery</h1>-->
+<html>
+<body>
+    <marquee><h2 style="margin-left: 50px;">We bake the food you love!!</h2></marquee>
+    <div class="contactformdiv" style="float: right;margin-right: 100px;" >
+    <h2 style="color: crimson; text-align: center;">Contact us</h2>
+    <div id="error_message"></div>
+<form class = "form" id = "contact-form"onsubmit="return validate();">
+    <label style="margin-top: 2px; margin-bottom: 2px; font-size: 20px;"></label>Name</label><br>
+    <input style="margin-top: 2px; margin-bottom: 2px; border-radius: 10px; width: 80%;  height: 30px;" type="text" placeholder="Enter your first and last name" id="name" required><br>
+    <label style="margin-top: 2px; margin-bottom: 2px; font-size: 20px;">Email</label><br>
+    <input style="margin-top: 2px; margin-bottom: 2px; border-radius: 10px; width: 80%;  height: 30px;" type="email" placeholder="Enter your email id" id="email" required><br>
+    <label style="margin-top: 2px; margin-bottom: 2px; font-size: 20px;">Phone number</label><br>
+    <input style="margin-top: 2px; margin-bottom: 2px; border-radius: 10px; width: 80%;  height: 30px;" type="number" placeholder="Enter your 10-digit phone number" id="phnumber" required><br>
+    <label style="margin-top: 2px; margin-bottom: 2px; font-size: 20px;">What item do you wanna buy?</label><br>
+    <input style="margin-top: 2px; margin-bottom: 2px; border-radius: 10px; width: 90%;  height: 30px;" type="text" placeholder="enter the bakery item you want" id="services" required><br>
+    <br>
+    <div class="btn">
+        <input type="submit">
+    </div>
+</form>
+</div>
+<img src="bakery2.jpg" alt="img" style="right: 0px; height: 30%; width: 30%; margin-top: 30px; margin-left: 30px;">
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    margin-top: 0px;
+    margin: -10px;
+    background-color:#eb3be2;
+    height: 70px;
+    box-shadow: bisque;
+}
+
+.form{
+    left: 0;
+}
+.form label{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.form input{
+    background-color: rgb(236, 229, 229);
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px; 
+    border-radius: 10px;
+    width: 80%;
+    height: 40px
+}
+
+.contactformdiv{
+    border-style: groove;
+    width: 30%;
+    margin-top: 10px;
+    float: left;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.form .btn input[type="submit"]{
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    background-color:#eb3be2;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.pic img{
+    right: 0px;
+    height: 25%;
+    width: 25%;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+h1{
+    color:#cf44c8;
+    right: 264px;
+    margin-top: -80px;
+    margin-left: 670px;
+}
